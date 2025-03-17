@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "../css/navbar.css";
+import "./NavBar.css";
 import { FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import { faMagnifyingGlass as SearchIcon, faCartShopping as ShoppingCardIcon} from '@fortawesome/free-solid-svg-icons';
 
