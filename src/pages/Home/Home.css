@@ -35,6 +35,7 @@
     letter-spacing: 2px;
     text-transform: uppercase;
     text-shadow: rgb(0, 0, 0) 0px 0px 40px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
 .banner h2 {
@@ -42,6 +43,7 @@
     margin-block: 20px 10px;
     font-size: 32px;
     font-weight: 600;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .banner p {
@@ -50,6 +52,7 @@
     max-width: 600px;
     margin: 15px auto 0;
     line-height: 1.6;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 
