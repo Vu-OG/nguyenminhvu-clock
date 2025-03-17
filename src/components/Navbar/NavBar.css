@@ -32,6 +32,7 @@ header nav ul li a{
     font-size: 16px;
     text-transform: capitalize;
     font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
 }
 header .headerActions{
     display: flex;
