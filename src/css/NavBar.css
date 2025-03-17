@@ -1,0 +1,79 @@
+header{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 8%;
+    box-sizing: border-box;
+}
+header .logo h1{
+    cursor: pointer;
+    font-size: 30px;
+    font-weight: 400;
+    font-family: "Tektur", sans-serif;
+    font-weight: 500;
+}
+header .logo h1:hover, header nav ul li:hover a{
+    color: rgb(51, 135, 135);
+    filter: drop-shadow(0 0 5px aqua);
+}
+header nav ul{
+    list-style: none;
+    display: flex;
+}
+header nav ul li:not(:first-child)::before{
+    content: "/";
+    margin-inline: 20px;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+header .headerActions{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+header .headerActions div{
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 500;
+    box-sizing: border-box;
+    padding: 7px;
+    border: 2px solid black;
+}
+header .headerActions div:hover *{
+}
+header .headerActions div:not(:last-child){
+    color: white;
+    width: 35px;
+    height: 35px;
+    background-color: black;
+}
+header .headerActions .account{
+    color: black;
+    width: auto;
+    height: 35px;
+    font-weight: 500;
+    font-size: 18px;
+}
+header .headerActions .account:hover{
+    background-color: transparent;
+    color: rgb(51, 135, 135);
+    filter: drop-shadow(0 0 5px aqua);
+    border-color: rgb(51, 135, 135);
+}
+header .headerActions svg{
+    width: 100%;
+    height: 100%;
+    border: none;
+}
