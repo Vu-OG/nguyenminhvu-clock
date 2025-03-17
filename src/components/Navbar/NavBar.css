@@ -66,6 +66,7 @@ header .headerActions .account{
     height: 35px;
     font-weight: 500;
     font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 header .headerActions .account:hover{
     background-color: transparent;
